@@ -1,0 +1,148 @@
+.Footer-section-bg-container {
+    display: flex;
+    flex-direction: column;
+  
+    align-items: center;
+    width: 100%;
+    padding: 30px;
+    background: #f2f2f2;
+  }
+  
+  .Fooetr-section-deatils-container {
+    display: flex;
+  }
+  
+  @media (min-width: 980px) {
+    .Fooetr-section-deatils-container {
+      width: 80%;
+    }
+  }
+  
+  @media (max-width: 850px) {
+    .Fooetr-section-deatils-container {
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+    }
+  }
+  
+  .Footer-section-deatils-lists-bg-container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  @media (max-width: 766px) {
+    .Footer-section-deatils-lists-bg-container {
+      justify-content: space-between;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+  }
+  
+  .Footer-section-deatils-list-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 30px;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 45%;
+  }
+  
+  @media (max-width: 768px) {
+    .Footer-section-deatils-list-container {
+      width: 25%;
+    }
+  }
+  
+  .logo-container {
+    display: flex;
+    justify-content: center;
+  
+    width: 40%;
+    margin-bottom: 30px;
+  }
+  
+  @media (max-width: 524px) {
+    .logo-container {
+      width: 80%;
+    }
+  }
+  
+  .logo {
+    width: 238.696px;
+    height: 66.768px;
+    flex-shrink: 0;
+  }
+  
+  .Footer-section-deatils-list-heading {
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .Footer-section-lists-container {
+    display: flex;
+  }
+  
+  .Footer-section-deatils-list-text {
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .Footer-section-contact-details-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    min-width: 80px;
+  }
+  
+  .Footer-section-contact-img {
+    width: 16px;
+    height: 16px;
+  }
+  
+  .Footer-section-social-media-img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .Footer-section-contact-details-container-span {
+    min-width: 120px;
+  }
+  
+  .Footer-section-copy-right-text {
+    color: #0d0d0d;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+  }
+  
+  .Footer-section-copy-right-text-container {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .Footer-section-our-apps-container {
+    margin: 30px;
+    margin-left: 60px;
+    margin-top: 10px;
+  }
+  
+  .out-app-text {
+    margin-bottom: 20px;
+  }
+  
+.Trading-experience-section-imgs-container{
+    display: flex;
+}

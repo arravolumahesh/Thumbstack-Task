@@ -1,0 +1,18 @@
+
+.crad-container {
+    width: 100%;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  
+  .carousel-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 20px;
+    background: #00c2ff;
+  }

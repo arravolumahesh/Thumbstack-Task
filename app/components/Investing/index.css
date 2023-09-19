@@ -1,0 +1,110 @@
+.crad-container {
+    width: 100%;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  
+  .carousel-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 20px;
+    background: #00c2ff;
+  }
+
+
+  .coin-imgs{
+    width: 400px;
+    height: 169px;
+    border-radius:3px;
+    background: url("https://res.cloudinary.com/devj4jofj/image/upload/v1694867131/Rectangle_2619_hpqagh.jpg"), lightgray 50% / contain no-repeat;
+    background-size: cover;
+    margin-right: 20px;
+}
+.investment-btn-1{
+    width: 108px;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    background: #D92365;
+    color: #F2F2F2;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; 
+    margin-top: 150px;
+}
+.invest-tip-heading{
+    font-family:"Poppins";
+    font-size:16px;
+    text-align:"center";
+    color:"#000";
+    font-style:"normal";
+    font-weight:500px;
+    line-height:30px;
+    flex-shrink:0;
+    padding-top: 20px;
+    width:299px;
+}
+.post-name{
+    font-family:"Poppins";
+    font-size:14px;
+    color:"var(--N2, #2C3655)";
+    font-style:"normal";
+    font-weight:400px;
+    line-height:22px;
+    display:flex;
+    justify-content:"center";
+    flex-shrink:0;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.publish-date{
+    color:"var(--N2, #2C3655)";
+    font-family:"Poppins";
+    font-size:14px;
+    font-style:"normal";
+    font-weight:400px;
+    line-height:22px;
+    padding-left:40px
+}
+.paragraph{
+    font-family:"Poppins";
+    font-size:14px;
+    color:"#000";
+    font-style:"normal";
+    font-weight:300px;
+    line-height:"normal";
+    display:flex;
+    flex-direction:column;
+    justify-content:"center";
+    width:288px;
+    height:63px;
+    flex-shrink:0;
+    padding-top: 10px;
+}
+.logos-container-1{
+    display: flex;
+    margin:10px;
+}
+.read-name{
+    font-family:"Poppins";
+    font-size:14px;
+    color:" #220D4E";
+    font-style:"normal";
+    font-weight:500px;
+    line-height:"normal";
+    flex-shrink:0;
+}
+.arrow{
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    color: #220d4E;
+    padding-left: 5px;
+}
